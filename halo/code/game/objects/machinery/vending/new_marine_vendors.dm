@@ -1,4 +1,50 @@
 
+#define MARINE_CAN_BUY_UNIFORM 		(1 << 0)
+#define MARINE_CAN_BUY_SHOES	 	(1 << 1)
+#define MARINE_CAN_BUY_HELMET 		(1 << 2)
+#define MARINE_CAN_BUY_ARMOR	 	(1 << 3)
+#define MARINE_CAN_BUY_GLOVES 		(1 << 4)
+#define MARINE_CAN_BUY_EAR	 		(1 << 5)
+#define MARINE_CAN_BUY_BACKPACK 	(1 << 6)
+#define MARINE_CAN_BUY_R_POUCH 		(1 << 7)
+#define MARINE_CAN_BUY_L_POUCH 		(1 << 8)
+#define MARINE_CAN_BUY_BELT 		(1 << 9)
+#define MARINE_CAN_BUY_GLASSES		(1 << 10)
+#define MARINE_CAN_BUY_MASK			(1 << 11)
+#define MARINE_CAN_BUY_ESSENTIALS	(1 << 12)
+#define MARINE_CAN_BUY_ATTACHMENT	(1 << 13)
+#define MARINE_CAN_BUY_ATTACHMENT2	(1 << 14)
+
+#define MARINE_CAN_BUY_WEBBING		(1 << 15)
+
+
+
+#define MARINE_CAN_BUY_ALL			((1 << 16) - 1)
+
+#define MARINE_TOTAL_BUY_POINTS		45
+
+#define CAT_ESS "ESSENTIALS"
+#define CAT_STD "STANDARD EQUIPMENT"
+#define CAT_SHO "SHOES"
+#define CAT_HEL "HATS"
+#define CAT_AMR "ARMOR"
+#define CAT_GLO "GLOVES"
+#define CAT_EAR "EAR"
+#define CAT_BAK "BACKPACK"
+#define CAT_POU "POUCHES"
+#define CAT_WEB "WEBBING"
+#define CAT_BEL "BELT"
+#define CAT_MAS "MASKS"
+#define CAT_ATT "GUN ATTACHMENTS"
+#define CAT_EXP "EXPLOSIVES"
+
+#define CAT_MEDSUP "MEDICAL SUPPLIES"
+#define CAT_ENGSUP "ENGINEERING SUPPLIES"
+#define CAT_LEDSUP "LEADER SUPPLIES"
+#define CAT_SPEAMM "SPECIAL AMMUNITION"
+
+
+
 //halo
 
 //UNSC Marine Gear
@@ -781,3 +827,22 @@
 	spawned_gear_list = list(
 						/obj/item/clothing/head/helmet/marine/urfc/commander,
 						/obj/item/clothing/suit/storage/marine/urfc/commander)
+
+#undef MARINE_CAN_BUY_UNIFORM
+#undef MARINE_CAN_BUY_SHOES
+#undef MARINE_CAN_BUY_HELMET
+#undef MARINE_CAN_BUY_ARMOR
+#undef MARINE_CAN_BUY_GLOVES
+#undef MARINE_CAN_BUY_EAR
+#undef MARINE_CAN_BUY_BACKPACK
+#undef MARINE_CAN_BUY_R_POUCH
+#undef MARINE_CAN_BUY_L_POUCH
+#undef MARINE_CAN_BUY_BELT
+#undef MARINE_CAN_BUY_GLASSES
+#undef MARINE_CAN_BUY_MASK
+#undef MARINE_CAN_BUY_ESSENTIALS
+
+#undef MARINE_CAN_BUY_ALL
+#undef MARINE_TOTAL_BUY_POINTS
+#undef SQUAD_LOCK
+#undef JOB_LOCK

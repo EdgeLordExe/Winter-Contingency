@@ -43,7 +43,7 @@
 	eyes = "blank_eyes"
 	blood_color = "#40f5ef"
 	flesh_color = "#4A3859"
-	icon_template = 'icons/halo/mob/r_unggoy.dmi'
+	icon_template = 'halo/icons/halo/mob/r_unggoy.dmi'
 
 
 	screams = list(MALE = "unggoyscream", FEMALE = "unggoyscream")
