@@ -54,6 +54,8 @@ GLOBAL_PROTECT(exp_specialmap)
 
 	var/list/jobworth = list() //Associative list of indexes increased when someone joins as this job.
 
+	var/team = TEAM_ALL
+
 /datum/job/New()
 	if(outfit)
 		if(!ispath(outfit, /datum/outfit))
@@ -77,6 +79,7 @@ GLOBAL_PROTECT(exp_specialmap)
 			remembered_info += "<b>Your account was created:</b> [transaction_datum.time], [transaction_datum.date] at [transaction_datum.source_terminal]"
 		M.mind.store_memory(remembered_info.Join("<br>"))
 		M.mind.initial_account = bank_account
+		M.mind.team = team
 
 		var/mob/living/carbon/human/H = L
 		var/obj/item/card/id/C = H.wear_id
